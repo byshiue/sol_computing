@@ -1,7 +1,7 @@
-from gpu import gpu_v100
-from gpu import gpu_a100
-from gpu import gpu_t4
-from layer import Layer
+from utils.gpu import gpu_v100
+from utils.gpu import gpu_a100
+from utils.gpu import gpu_t4
+from utils.layer import Layer
 
 class Gpt2_Model:
     def __init__(self, name, gpu, batch, seq, head, size, dtype, num_layer, vocab):
